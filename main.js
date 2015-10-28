@@ -3,6 +3,10 @@
 var scope = {};
 var classNamesArray = ['name', 'age'];
 
+//refactor loops and iterates through class names
+//calls domBinding()
+//calls modelBinding()
+
 // ** functions ** //
 function getElements() {
   /*
@@ -56,6 +60,7 @@ function modelBinding(elements){
 // ** function calls ** //
 var domElements = getElements();
 domBinding(domElements[0]);
+domBinding(domElements[1]);
 modelBinding(domElements[0]);
 
 
